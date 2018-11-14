@@ -1,12 +1,14 @@
-# Simple image blur by convolution with a Gaussian kernel
+Simple image blur by convolution with a Gaussian kernel
+-----
 
-[*Jupyter Notebook*](./gaussian.ipynb)
+[_Jupyter Notebook_](./gaussian.ipynb)
 
 ![elephant](./elephant.png)
 
-Blur an an image (./elephant.png) using a *Gaussian* kernel.
+Blur an an image (./elephant.png) using a _Gaussian_ kernel.
 
 > Convolution is easy to perform with FFT: convolving two signals boils down to multiplying their FFTs (and performing an inverse FFT).
+
 
 # Installation
 
@@ -16,7 +18,8 @@ Blur an an image (./elephant.png) using a *Gaussian* kernel.
 pip install -r requirements.txt
 ```
 
-# Running
+
+# Running
 
 ```bash
 python main.py
