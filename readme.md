@@ -10,16 +10,17 @@ Blur an an image (./elephant.png) using a _Gaussian_ kernel.
 > Convolution is easy to perform with FFT: convolving two signals boils down to multiplying their FFTs (and performing an inverse FFT).
 
 
-# Installation
+## Installation
 
 **requires python 3.x**
 
 ```bash
+git clone https://github.com/cagataycali/simple-image-convolution-fft.git && cd simple-image-convolution-fft;
 pip install -r requirements.txt
 ```
 
 
-# Running
+## Running
 
 ```bash
 python main.py
