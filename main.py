@@ -3,7 +3,7 @@ from scipy import fftpack
 import matplotlib.pyplot as plt
 
 # read local image
-img = plt.imread('./elephant.png')
+img = plt.imread('./in.png')
 
 # First a 1-D  Gaussian
 t = np.linspace(-10, 10, 30)
